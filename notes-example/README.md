@@ -8,7 +8,7 @@ The note is stored in code, not in a file you edit from the window:
 { id: 1, title: "First note" }
 ```
 
-The CSV looks like this:
+The CSV looks like this:-
 
 ```csv
 id,title
