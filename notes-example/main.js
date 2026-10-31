@@ -3,7 +3,7 @@ const { writeFileSync } = require("node:fs");
 const path = require("node:path");
 const { toCsv } = require("./csv.js");
 
-const notes = [{ id: 1, title: "First note" }];
+const notes = [{ id: 101, title: "First note" }];
 
 ipcMain.handle("notes:export", () => {
   const destination = path.join(app.getPath("downloads"), "notes.csv");
